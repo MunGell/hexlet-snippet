@@ -1,0 +1,22 @@
+{
+  "name": "hexlet-snippet",
+  "version": "1.0.0",
+  "description": "Hexlet analytics.js snippet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MunGell/hexlet-snippet.git"
+  },
+  "author": "Shmavon Gazanchyan <sgazanchyan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MunGell/hexlet-snippet/issues"
+  },
+  "homepage": "https://github.com/MunGell/hexlet-snippet",
+  "dependencies": {
+    "segmentio-snippet": "git://github.com/Hexlet/snippet"
+  }
+}

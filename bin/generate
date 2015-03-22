@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+/**
+ * Hexlet Snippet Generator
+ */
+
+var write = require('fs').writeFileSync;
+var snippet = require('segmentio-snippet');
+var config = require('../config.json');
+
+write('dist/snippet.js', snippet.max(config));
+write('dist/snippet.min.js', snippet.min(config));
