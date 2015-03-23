@@ -76,7 +76,11 @@
   analytics.load('//example.net/analytics.min.js');
 
   // Configure integrations
-  analytics.initialize();
+  analytics.initialize({
+  "Google Analytics": {
+    "trackingId": "UA-XXXXXX-1"
+  }
+});
 
   // Make the first page call to load the integrations. If
   // you'd like to manually name or tag the page, edit or

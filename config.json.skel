@@ -1,3 +1,8 @@
 {
-    "host": "//example.net/analytics.min.js"
+    "host": "//example.net/analytics.min.js",
+    "init": {
+        "Google Analytics": {
+            "trackingId": "UA-XXXXXX-1"
+        }
+    }
 }
